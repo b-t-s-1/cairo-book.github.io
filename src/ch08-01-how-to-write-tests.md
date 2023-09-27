@@ -55,7 +55,7 @@ The example function body uses the `assert` function, which contains the result 
 The `cairo-test .` command runs all tests in our project, as shown in Listing 8-2.
 
 ```shell
-$ scarb cairo-test 
+$ cairo-test .
 running 1 tests
 test adder::lib::tests::it_works ... ok
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 filtered out;
